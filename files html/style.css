@@ -1,0 +1,315 @@
+
+
+body {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+}
+
+/* section #1 */
+.containe {
+    position: relative;
+    color: white;
+    max-width: 100%;
+}
+
+.containe img {
+    width: 100%;
+    height: 400px;
+    display: block;
+    max-width: 100%;
+
+}
+
+#index-h11 {
+    font-size: 50px;
+    color: white;
+}
+
+
+.textimg {
+    position: relative;
+    top: -240px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+/* section #1 end */
+
+
+/* section 2 */
+
+.abouttex {
+    text-align: justify;
+    color: white;
+}
+
+#section2-h1 {
+    margin-bottom: 50px !important;
+    color: blue;
+    font-size: 40px;
+    text-shadow: 5px 5px 15px rgb(3, 3, 3);
+    color: white;
+}
+
+#section2-h1:hover {
+    color: black;
+    text-shadow: 5px 5px 15px purple;
+}
+
+
+
+.contaner {
+    margin-top: 50px;
+    height: 400px;
+}
+
+.contaner img {
+    float: left;
+    margin-right: 15px;
+    width: 350px !important;
+    height: 300px !important;
+    margin-bottom: 50px;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width:500px) {
+    .abouttex {
+        text-align: center;
+    }
+
+    .contaner {
+        height: 700px;
+    }
+
+    .contaner img {
+
+        width: 100%;
+        height: 450px;
+
+    }
+
+    .carousel-item {
+        height: 300px
+    }
+
+    #google-map {
+        width: 100%;
+
+    }
+
+    .textimg {
+        position: absolute;
+        top: 130px;
+        color: white;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #index-h11 {
+        font-size: 40px;
+    }
+
+}
+
+
+/* section no 3 menu */
+
+.aboutimg{
+width: 50% !important;
+
+}
+
+
+#menu-h1 {
+
+    margin-top: 70px;
+    color: #ffffff;
+    text-shadow: 5px 5px 15px black;
+}
+
+.box {
+    height: 420px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    transition: transform 0.3s ease;
+
+}
+
+.box:hover {
+    transform: scale(1.1);
+
+}
+
+.box img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.box-text-cont {
+    text-align: center;
+
+}
+
+
+.flexboxcont {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+#menu-buttun {
+    align-items: center;
+    color: white !important;
+}
+
+/* sec no 3 end  */
+
+
+/* gallery section no 4 */
+
+#gallery-h1 {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: 5px 5px 15px black;
+}
+
+#contact-h1 {
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: white;
+    text-shadow: 3px 3px 15px black;
+}
+
+
+
+#google-map {
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#location-dot {
+    border-radius: 50px;
+    background-color: red;
+    padding: 20px;
+}
+
+.contact-box1 {
+    display: flex;
+    background-color: white;
+    box-shadow: 3px 3px 15px rgb(196, 105, 105);
+}
+
+.contact-text {
+    text-align: justify;
+}
+
+#location-dot {
+    margin-left: 20px;
+}
+
+.contact-box2 {
+    display: flex;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 3px 3px 15px rgb(196, 105, 105);
+
+}
+
+.all-boxs {
+    padding: 60px;
+    text-align: center;
+}
+
+#btnnnnnn {
+    color: #ffffff;
+}
+
+#contact-buttn {
+    margin-top: 50px;
+
+}
+
+#gallery-para {
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    color: #ffffff;
+}
+
+
+
+
+
+/* footer */
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.footer-section {
+    margin: 10px;
+    padding: 10px;
+    flex: 1 1 200px;
+    text-align: center;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .footer-section {
+        flex: 1 1 100%;
+    }
+}
+
+
+#face-icon:hover {
+    color: rgb(11, 115, 250);
+
+}
+
+#twit-icon:hover {
+    color: rgb(11, 115, 250);
+
+}
+
+#insta-icon:hover {
+    color: rgb(177, 52, 177);
+}
+
+/* anchor elemnt edit  */
+
+button>a{
+    text-decoration: none;
+}

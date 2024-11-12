@@ -1,0 +1,73 @@
+#menu---h1 {
+    overflow: hidden;
+    animation: typing 40s steps(1000) infinite;
+    text-shadow: 5px 5px 15px rgb(17, 16, 17);
+}
+
+@keyframes typing {
+    0%,
+    100% {
+        width: 0;
+        background-color: transparent;
+    }
+    10%,
+    90% {
+        width: 100%;
+        color: white;
+    }
+}
+
+
+body {
+    background: rgb(231, 12, 64);
+    background: linear-gradient(90deg, rgba(231, 12, 64, 1) 0%, rgba(101, 76, 83, 1) 21%, rgba(76, 88, 87, 1) 25%, rgba(64, 94, 85, 1) 27%, rgba(9, 121, 97, 1) 36%, rgba(8, 125, 104, 1) 38%, rgba(8, 128, 109, 1) 40%, rgba(8, 132, 116, 1) 43%, rgba(7, 142, 133, 1) 50%, rgba(0, 212, 255, 1) 100%);
+}
+
+
+.menu-box {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.cont-menu {
+    margin-top: 100px;
+}
+
+.footer-h2 {
+    color: rgb(255, 255, 255);
+    margin-top: 50px;
+    text-shadow: 3px 3px 15px black;
+    text-align: center;
+}
+
+.line-footer {
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    margin-top: 40px;
+}
+
+#last-para {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width:450px) {
+
+    #carouselExampleInterval {
+
+        height: 300px;
+    }
+
+}
+
+.box {
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
